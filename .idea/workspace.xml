@@ -39,6 +39,8 @@
     &quot;Application.ConvertVnd.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Name.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuadraticEquation.executor&quot;: &quot;Run&quot;,
     &quot;Application.ss2_vong_lap.bai_tap.hien_thi_cac_loai_hinh.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -52,7 +54,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ss2_vong_lap.bai_tap.hien_thi_cac_loai_hinh.Main">
+  <component name="RunManager" selected="Application.QuadraticEquation">
     <configuration name="ConvertUsd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss1_introduction_to_java.bai_tap.chuyen_doi_tien_te.ConvertUsd" />
       <module name="Module__2" />
@@ -79,19 +81,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss2_vong_lap.bai_tap.hien_thi_20_so_nguyen_to.PrimeNumbers" />
       <module name="Module__2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss2_vong_lap.bai_tap.hien_thi_20_so_nguyen_to.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Name" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1_introduction_to_java.bai_tap.hien_thi_loi_chao.Name" />
+    <configuration name="QuadraticEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4_lop_va_doi_tuong_trong_java.bai_tap.xay_dung_lop_quadratic_equation.QuadraticEquation" />
       <module name="Module__2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1_introduction_to_java.bai_tap.hien_thi_loi_chao.*" />
+          <option name="PATTERN" value="ss4_lop_va_doi_tuong_trong_java.bai_tap.xay_dung_lop_quadratic_equation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuadraticEquation" />
+        <item itemvalue="Application.PrimeNumbers" />
         <item itemvalue="Application.ss2_vong_lap.bai_tap.hien_thi_cac_loai_hinh.Main" />
         <item itemvalue="Application.ConvertUsd" />
         <item itemvalue="Application.ConvertVnd" />
-        <item itemvalue="Application.Name" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +154,9 @@
       <workItem from="1723205045002" duration="4527000" />
       <workItem from="1723452435877" duration="7271000" />
       <workItem from="1723460132928" duration="2000" />
+      <workItem from="1723462655918" duration="3421000" />
+      <workItem from="1723483751841" duration="4369000" />
+      <workItem from="1723628734521" duration="23000" />
     </task>
     <servers />
   </component>
