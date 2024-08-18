@@ -33,34 +33,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ConvertUsd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConvertVnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Name.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuadraticEquation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ss2_vong_lap.bai_tap.hien_thi_cac_loai_hinh.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/CodeGym/C0524M1-JV103/Module__2/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ConvertUsd.executor": "Run",
+    "Application.ConvertVnd.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Name.executor": "Run",
+    "Application.PrimeNumbers.executor": "Run",
+    "Application.QuadraticEquation.executor": "Run",
+    "Application.StopWatch.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestCircle.executor": "Run",
+    "Application.ss2_vong_lap.bai_tap.hien_thi_cac_loai_hinh.Main.executor": "Run",
+    "Application.ss3_mang.bai_tap.them_phan_tu_vao_mang.Main.executor": "Run",
+    "Application.ss3_mang.bai_tap.xoa_phan_tu_khoi_mang.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/CodeGym/C0524M1-JV103/Module__2/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.QuadraticEquation">
-    <configuration name="ConvertUsd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1_introduction_to_java.bai_tap.chuyen_doi_tien_te.ConvertUsd" />
+}]]></component>
+  <component name="RunManager" selected="Application.ss3_mang.bai_tap.them_phan_tu_vao_mang.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4_lop_va_doi_tuong_trong_java.bai_tap.xay_dung_lop_fan.Main" />
       <module name="Module__2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1_introduction_to_java.bai_tap.chuyen_doi_tien_te.*" />
+          <option name="PATTERN" value="ss4_lop_va_doi_tuong_trong_java.bai_tap.xay_dung_lop_fan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertVnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1_introduction_to_java.bai_tap.chuyen_doi_tien_te.ConvertVnd" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss5_access_modifier_static.bai_tap_xay_dung_lop_chi_ghi_trong_java.Test" />
       <module name="Module__2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1_introduction_to_java.bai_tap.chuyen_doi_tien_te.*" />
+          <option name="PATTERN" value="ss5_access_modifier_static.bai_tap_xay_dung_lop_chi_ghi_trong_java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss2_vong_lap.bai_tap.hien_thi_20_so_nguyen_to.PrimeNumbers" />
+    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss5_access_modifier_static.bai_tap_access_modifier.TestCircle" />
       <module name="Module__2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss2_vong_lap.bai_tap.hien_thi_20_so_nguyen_to.*" />
+          <option name="PATTERN" value="ss5_access_modifier_static.bai_tap_access_modifier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuadraticEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4_lop_va_doi_tuong_trong_java.bai_tap.xay_dung_lop_quadratic_equation.QuadraticEquation" />
+    <configuration name="ss3_mang.bai_tap.them_phan_tu_vao_mang.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_mang.bai_tap.them_phan_tu_vao_mang.Main" />
       <module name="Module__2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4_lop_va_doi_tuong_trong_java.bai_tap.xay_dung_lop_quadratic_equation.*" />
+          <option name="PATTERN" value="ss3_mang.bai_tap.them_phan_tu_vao_mang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss2_vong_lap.bai_tap.hien_thi_cac_loai_hinh.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss2_vong_lap.bai_tap.hien_thi_cac_loai_hinh.Main" />
+    <configuration name="ss3_mang.bai_tap.xoa_phan_tu_khoi_mang.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_mang.bai_tap.xoa_phan_tu_khoi_mang.Main" />
       <module name="Module__2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss2_vong_lap.bai_tap.hien_thi_cac_loai_hinh.*" />
+          <option name="PATTERN" value="ss3_mang.bai_tap.xoa_phan_tu_khoi_mang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuadraticEquation" />
-        <item itemvalue="Application.PrimeNumbers" />
-        <item itemvalue="Application.ss2_vong_lap.bai_tap.hien_thi_cac_loai_hinh.Main" />
-        <item itemvalue="Application.ConvertUsd" />
-        <item itemvalue="Application.ConvertVnd" />
+        <item itemvalue="Application.ss3_mang.bai_tap.them_phan_tu_vao_mang.Main" />
+        <item itemvalue="Application.ss3_mang.bai_tap.xoa_phan_tu_khoi_mang.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestCircle" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +162,9 @@
       <workItem from="1723462655918" duration="3421000" />
       <workItem from="1723483751841" duration="4369000" />
       <workItem from="1723628734521" duration="23000" />
+      <workItem from="1723635410795" duration="3774000" />
+      <workItem from="1723808121458" duration="5158000" />
+      <workItem from="1723988891971" duration="9499000" />
     </task>
     <servers />
   </component>
