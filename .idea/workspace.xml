@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0dc9048-3d94-4364-8634-f564e834b17e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss8_clean_code/bai_tap/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8_clean_code/bai_tap/TennisGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,7 @@
     "Application.StopWatch.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestCircle.executor": "Run",
+    "Application.ss10_DSA_danh_sach.bai_tap.ProductManagement.Main.executor": "Run",
     "Application.ss2_vong_lap.bai_tap.hien_thi_cac_loai_hinh.Main.executor": "Run",
     "Application.ss3_mang.bai_tap.gop_mang.Main.executor": "Run",
     "Application.ss3_mang.bai_tap.them_phan_tu_vao_mang.Main.executor": "Run",
@@ -66,7 +68,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ss10_DSA_danh_sach.bai_tap.ProductManagement.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss7_Abstract_and_Interfaces.bai_tap.trien_khai_interface_resizeable_cho_cac_lop_hinh_hoc.Main" />
       <module name="Module__2" />
@@ -106,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss6_ke_thua.bai_tap.lop_point2d_va_point3d.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6_ke_thua.bai_tap.lop_point2d_va_point3d.Main" />
+    <configuration name="ss10_DSA_danh_sach.bai_tap.ProductManagement.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10_DSA_danh_sach.bai_tap.ProductManagement.Main" />
       <module name="Module__2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6_ke_thua.bai_tap.lop_point2d_va_point3d.*" />
+          <option name="PATTERN" value="ss10_DSA_danh_sach.bai_tap.ProductManagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ss10_DSA_danh_sach.bai_tap.ProductManagement.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.RectangleTest" />
         <item itemvalue="Application.ShapeTest" />
         <item itemvalue="Application.ss6_ke_thua.bai_tap.lop_point_va_moveablepoint.Main" />
-        <item itemvalue="Application.ss6_ke_thua.bai_tap.lop_point2d_va_point3d.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +181,8 @@
       <workItem from="1724948100358" duration="3557000" />
       <workItem from="1725334726488" duration="595000" />
       <workItem from="1725340245526" duration="6550000" />
+      <workItem from="1725449571942" duration="5487000" />
+      <workItem from="1725622404476" duration="6831000" />
     </task>
     <servers />
   </component>
