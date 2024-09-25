@@ -21,26 +21,26 @@ public class Main {
             switch (choice) {
                 case 1:
                     //Hiển thị sản phẩm
-                    System.out.println("Hiển thị danh sách sản phẩm");
+                    System.out.println("----------Hiển thị danh sách sản phẩm----------");
                     manager.displayProducts();
                     break;
                 case 2:
                     //Thêm mới sản phẩm
-                    System.out.println("Thêm mới");
+                    System.out.println("-------------------Thêm mới---------------------");
                     Product product = inputDatProduct();
                     manager.add(product);
                     System.out.println("Thêm mới thành công");
                     break;
                 case 3:
                     //Xoá sản phẩm
-                    System.out.println("Xoá sản phẩm");
+                    System.out.println("-----------------Xoá sản phẩm-------------------");
                     System.out.println("Nhập id sản phẩm cần xoá: ");
                     int id = Integer.parseInt(sc.nextLine());
                     manager.deleteById(id);
                     break;
                 case 4:
                     //Cập nhật thông tin sản phẩm
-                    System.out.println("Cập nhật thông tin sản phẩm");
+                    System.out.println("----------Cập nhật thông tin sản phẩm------------");
                     System.out.println("Nhập id sản phẩm cập nhật: ");
                     int idUpdate = Integer.parseInt(sc.nextLine());
                     System.out.println("Nhập tên sản phẩm: ");

@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0dc9048-3d94-4364-8634-f564e834b17e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss8_clean_code/bai_tap/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8_clean_code/bai_tap/TennisGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10_DSA_danh_sach/bai_tap/ProductManagement/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10_DSA_danh_sach/bai_tap/ProductManagement/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,40 +35,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ConvertUsd.executor": "Run",
-    "Application.ConvertVnd.executor": "Run",
-    "Application.CylinderTest.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Name.executor": "Run",
-    "Application.PrimeNumbers.executor": "Run",
-    "Application.QuadraticEquation.executor": "Run",
-    "Application.RectangleTest.executor": "Run",
-    "Application.ShapeTest.executor": "Run",
-    "Application.StopWatch.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TestCircle.executor": "Run",
-    "Application.ss10_DSA_danh_sach.bai_tap.ProductManagement.Main.executor": "Run",
-    "Application.ss2_vong_lap.bai_tap.hien_thi_cac_loai_hinh.Main.executor": "Run",
-    "Application.ss3_mang.bai_tap.gop_mang.Main.executor": "Run",
-    "Application.ss3_mang.bai_tap.them_phan_tu_vao_mang.Main.executor": "Run",
-    "Application.ss3_mang.bai_tap.xoa_phan_tu_khoi_mang.Main.executor": "Run",
-    "Application.ss6_ke_thua.bai_tap.lop_point2d_va_point3d.Main.executor": "Run",
-    "Application.ss6_ke_thua.bai_tap.lop_point_va_moveablepoint.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/CodeGym/C0524M1-JV103/Module__2/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ConvertUsd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConvertVnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CylinderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeviceManagement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Name.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuadraticEquation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RectangleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShapeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StopWatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentManagement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCircle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ss10_DSA_danh_sach.bai_tap.ProductManagement.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ss2_vong_lap.bai_tap.hien_thi_cac_loai_hinh.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ss3_mang.bai_tap.gop_mang.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ss3_mang.bai_tap.them_phan_tu_vao_mang.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ss3_mang.bai_tap.xoa_phan_tu_khoi_mang.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ss6_ke_thua.bai_tap.lop_point2d_va_point3d.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ss6_ke_thua.bai_tap.lop_point_va_moveablepoint.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nitro V/Downloads/zoom&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/CodeGym/C0524M1-JV103/Module__2/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ss10_DSA_danh_sach.bai_tap.ProductManagement.Main">
+}</component>
+  <component name="RunManager" selected="Application.DeviceManagement">
+    <configuration name="DeviceManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="case_study.view.DeviceManagement" />
+      <module name="Module__2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="case_study.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss7_Abstract_and_Interfaces.bai_tap.trien_khai_interface_resizeable_cho_cac_lop_hinh_hoc.Main" />
       <module name="Module__2" />
@@ -82,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7_Abstract_and_Interfaces.bai_tap.trien_khai_interface_resizeable_cho_cac_lop_hinh_hoc.RectangleTest" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_DSA_stack_queue.bai_tap.dao_nguoc_phan_tu_trong_mang_so_nguyen_su_dung_stack.ReverseArray" />
       <module name="Module__2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7_Abstract_and_Interfaces.bai_tap.trien_khai_interface_resizeable_cho_cac_lop_hinh_hoc.*" />
+          <option name="PATTERN" value="ss11_DSA_stack_queue.bai_tap.dao_nguoc_phan_tu_trong_mang_so_nguyen_su_dung_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7_Abstract_and_Interfaces.bai_tap.trien_khai_interface_colorable_cho_cac_lop_hinh_hoc.ShapeTest" />
+    <configuration name="StudentManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="case_study_manager.view.StudentManagement" />
       <module name="Module__2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7_Abstract_and_Interfaces.bai_tap.trien_khai_interface_colorable_cho_cac_lop_hinh_hoc.*" />
+          <option name="PATTERN" value="case_study_manager.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,26 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss6_ke_thua.bai_tap.lop_point_va_moveablepoint.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6_ke_thua.bai_tap.lop_point_va_moveablepoint.Main" />
-      <module name="Module__2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss6_ke_thua.bai_tap.lop_point_va_moveablepoint.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeviceManagement" />
+        <item itemvalue="Application.StudentManagement" />
+        <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.ss10_DSA_danh_sach.bai_tap.ProductManagement.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.RectangleTest" />
-        <item itemvalue="Application.ShapeTest" />
-        <item itemvalue="Application.ss6_ke_thua.bai_tap.lop_point_va_moveablepoint.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +187,21 @@
       <workItem from="1725340245526" duration="6550000" />
       <workItem from="1725449571942" duration="5487000" />
       <workItem from="1725622404476" duration="6831000" />
+      <workItem from="1725881692861" duration="3292000" />
+      <workItem from="1726226961255" duration="2719000" />
+      <workItem from="1726243442361" duration="1842000" />
+      <workItem from="1726486400958" duration="1482000" />
+      <workItem from="1726489205198" duration="1222000" />
+      <workItem from="1726645911503" duration="1482000" />
+      <workItem from="1726676371495" duration="4844000" />
+      <workItem from="1726831419783" duration="4840000" />
+      <workItem from="1726982365509" duration="14650000" />
+      <workItem from="1727090432675" duration="5550000" />
+      <workItem from="1727096198511" duration="3518000" />
+      <workItem from="1727108064095" duration="9609000" />
+      <workItem from="1727181857522" duration="13431000" />
+      <workItem from="1727228519716" duration="27720000" />
+      <workItem from="1727261159440" duration="4871000" />
     </task>
     <servers />
   </component>
@@ -197,6 +216,10 @@
           <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.time.format.DateTimeParseException" package="java.time.format" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
