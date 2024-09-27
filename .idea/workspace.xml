@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c0dc9048-3d94-4364-8634-f564e834b17e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10_DSA_danh_sach/bai_tap/ProductManagement/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10_DSA_danh_sach/bai_tap/ProductManagement/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/controller/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/controller/DeviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/data/laptop.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/data/laptop.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/service/laptop/ILaptopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/service/laptop/ILaptopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/view/DeviceManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/view/DeviceManagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -201,7 +204,9 @@
       <workItem from="1727108064095" duration="9609000" />
       <workItem from="1727181857522" duration="13431000" />
       <workItem from="1727228519716" duration="27720000" />
-      <workItem from="1727261159440" duration="4871000" />
+      <workItem from="1727261159440" duration="8567000" />
+      <workItem from="1727365951957" duration="4001000" />
+      <workItem from="1727436337061" duration="8755000" />
     </task>
     <servers />
   </component>

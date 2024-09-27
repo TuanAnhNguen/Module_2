@@ -11,7 +11,7 @@ import case_study.service.smartphone.SmartPhoneService;
 import java.util.List;
 public class DeviceController {
 
-    private final ILaptopService laptopService = new LaptopService();
+    private ILaptopService laptopService = new LaptopService();
     public List<Device> getLaptops() {
         return laptopService.getAll();
     }
@@ -36,7 +36,7 @@ public class DeviceController {
         return laptopService.findByCode(code) != null;
     }
 
-    private final ISmartPhoneService smartPhoneService = new SmartPhoneService();
+    private ISmartPhoneService smartPhoneService = new SmartPhoneService();
     public List<Device> getSmartPhones() {
         return smartPhoneService.getAll();
     }

@@ -17,7 +17,7 @@ public class DeviceManagement {
                     "1. Laptop \n" +
                     "2. Smart Phone \n" +
                     "3. Thoát chương trình.");
-            System.out.println("Nhập lựa chọn của bạn: ");
+            System.out.print("Nhập lựa chọn của bạn: ");
             int mainChoice = scanner.nextInt();
             switch (mainChoice) {
                 case 1:
@@ -42,7 +42,7 @@ public class DeviceManagement {
                     "3. Chỉnh sửa \n" +
                     "4. Xoá \n" +
                     "5. Quay lại danh sách thiết bị \n");
-            System.out.println("Nhập lựa chọn của bạn: ");
+            System.out.print("Nhập lựa chọn của bạn: ");
             int laptopChoice = scanner.nextInt();
             scanner.nextLine();
             switch (laptopChoice) {
@@ -71,22 +71,22 @@ public class DeviceManagement {
 
     public void addNewLaptop() {
         String newLaptopCode;
-        System.out.println("Nhập mã sản phẩm: ");
+        System.out.print("Nhập mã sản phẩm: ");
         newLaptopCode = scanner.nextLine();
         if (deviceController.isExistLaptop(newLaptopCode)){
             System.out.println("Mã Laptop đã có rồi!");
             return;
         }
-        System.out.println("Nhập tên Laptop: ");
+        System.out.print("Nhập tên Laptop: ");
         String newLaptopName = scanner.nextLine();
-        System.out.println("Nhập tên nhà sản xuất: ");
+        System.out.print("Nhập tên nhà sản xuất: ");
         String newLaptopManufacturer = scanner.nextLine();
-        System.out.println("Nhập năm sản xuất: ");
+        System.out.print("Nhập năm sản xuất: ");
         int newLaptopYear = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("Nhập dữ liệu CPU: ");
+        System.out.print("Nhập dữ liệu CPU: ");
         String newLaptopCPU = scanner.nextLine();
-        System.out.println("Nhập dữ liệu ổ cứng: ");
+        System.out.print("Nhập dữ liệu ổ cứng: ");
         String newLaptopHardDrive = scanner.nextLine();
 
         Laptop newLaptop = new Laptop(newLaptopCode, newLaptopName, newLaptopManufacturer, newLaptopYear, newLaptopCPU,newLaptopHardDrive);
@@ -95,20 +95,20 @@ public class DeviceManagement {
     }
 
     public void updateLaptop() {
-        System.out.println("Nhập mã Laptop chỉnh sửa: ");
+        System.out.print("Nhập mã Laptop chỉnh sửa: ");
         String updateLaptopCode = scanner.nextLine();
         Device updatedLaptop = (Laptop) deviceController.findLaptopByCode(updateLaptopCode);
         if (updatedLaptop != null) {
-            System.out.println("Nhập tên Laptop: ");
+            System.out.print("Nhập tên Laptop: ");
             String updateLaptopName = scanner.nextLine();
-            System.out.println("Nhập tên nhà sản xuất: ");
+            System.out.print("Nhập tên nhà sản xuất: ");
             String updateLaptopManufacturer = scanner.nextLine();
-            System.out.println("Nhập năm sản xuất: ");
+            System.out.print("Nhập năm sản xuất: ");
             int updateLaptopYear = scanner.nextInt();
             scanner.nextLine();
-            System.out.println("Nhập dữ liệu CPU: ");
+            System.out.print("Nhập dữ liệu CPU: ");
             String updateLaptopCPU = scanner.nextLine();
-            System.out.println("Nhập dữ liệu ổ cứng: ");
+            System.out.print("Nhập dữ liệu ổ cứng: ");
             String updateLaptopHardDrive = scanner.nextLine();
 
             updatedLaptop.setCode(updateLaptopCode);
@@ -126,7 +126,7 @@ public class DeviceManagement {
     }
 
     public void deleteLaptop() {
-        System.out.println("Nhập mã Laptop muốn xoá: ");
+        System.out.print("Nhập mã Laptop muốn xoá: ");
         String deleteLaptopCode = scanner.nextLine();
         if (deviceController.isExistLaptop(deleteLaptopCode)) {
             deviceController.deleteLaptop(deleteLaptopCode);
@@ -144,7 +144,7 @@ public class DeviceManagement {
                     "3. Chỉnh sửa \n" +
                     "4. Xoá \n" +
                     "5. Quay lại danh sách thiết bị \n");
-            System.out.println("Nhập lựa chọn của bạn: ");
+            System.out.print("Nhập lựa chọn của bạn: ");
             int smartPhoneChoice = scanner.nextInt();
             scanner.nextLine();
             switch (smartPhoneChoice) {
@@ -170,47 +170,45 @@ public class DeviceManagement {
             }
         } while (true);
     }
-//
     public void addNewSmartPhone() {
         String newSmartPhoneCode;
-        System.out.println("Nhập mã sản phẩm: ");
+        System.out.print("Nhập mã sản phẩm: ");
         newSmartPhoneCode = scanner.nextLine();
         if (deviceController.isExistSmartPhone(newSmartPhoneCode)){
             System.out.println("Mã điện thoại đã có rồi!");
             return;
         }
-        System.out.println("Nhập tên điện thoại: ");
+        System.out.print("Nhập tên điện thoại: ");
         String newSmartPhoneName = scanner.nextLine();
-        System.out.println("Nhập tên nhà sản xuất: ");
+        System.out.print("Nhập tên nhà sản xuất: ");
         String newSmartPhoneManufacturer = scanner.nextLine();
-        System.out.println("Nhập năm sản xuất: ");
+        System.out.print("Nhập năm sản xuất: ");
         int newSmartPhoneYear = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("Nhập hệ điều hành: ");
+        System.out.print("Nhập hệ điều hành: ");
         String newSmartPhoneOperatingSystem = scanner.nextLine();
-        System.out.println("Nhập dung lượng pin: ");
+        System.out.print("Nhập dung lượng pin: ");
         int newSmartPhoneCapacity = scanner.nextInt();
 
         SmartPhone newSmartPhone = new SmartPhone(newSmartPhoneCode, newSmartPhoneName, newSmartPhoneManufacturer, newSmartPhoneYear, newSmartPhoneOperatingSystem,newSmartPhoneCapacity);
         deviceController.addSmartPhone(newSmartPhone);
         System.out.println("Thêm mới thành công!");
     }
-//
     public void updateSmartPhone() {
-        System.out.println("Nhập mã sản phẩm chỉnh sửa: ");
+        System.out.print("Nhập mã sản phẩm chỉnh sửa: ");
         String updateSmartPhoneCode = scanner.nextLine();
         Device updatedSmartPhone = (SmartPhone) deviceController.findSmartPhoneByCode(updateSmartPhoneCode);
         if (updatedSmartPhone != null) {
-            System.out.println("Nhập tên điện thoại: ");
+            System.out.print("Nhập tên điện thoại: ");
             String updateSmartPhoneName = scanner.nextLine();
-            System.out.println("Nhập tên nhà sản xuất: ");
+            System.out.print("Nhập tên nhà sản xuất: ");
             String updateSmartPhoneManufacturer = scanner.nextLine();
-            System.out.println("Nhập năm sản xuất: ");
+            System.out.print("Nhập năm sản xuất: ");
             int updateSmartPhoneYear = scanner.nextInt();
             scanner.nextLine();
-            System.out.println("Nhập hệ điều hành: ");
+            System.out.print("Nhập hệ điều hành: ");
             String updateSmartPhoneOperatingSystem = scanner.nextLine();
-            System.out.println("Nhập dung lượng pin: ");
+            System.out.print("Nhập dung lượng pin: ");
             int updateSmartPhoneCapacity = scanner.nextInt();
 
             updatedSmartPhone.setCode(updateSmartPhoneCode);
@@ -226,9 +224,8 @@ public class DeviceManagement {
             System.out.println("Không tìm thấy sản phầm!");
         }
     }
-//
     public void deleteSmartPhone() {
-        System.out.println("Nhập mã sản phẩm muốn xoá: ");
+        System.out.print("Nhập mã sản phẩm muốn xoá: ");
         String deleteSmartPhoneCode = scanner.nextLine();
         if (deviceController.isExistSmartPhone(deleteSmartPhoneCode)) {
             deviceController.deleteSmartPhone(deleteSmartPhoneCode);
