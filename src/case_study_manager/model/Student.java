@@ -1,46 +1,55 @@
 package case_study_manager.model;
 
-import java.time.LocalDate;
-
-public class Student extends Person{
-    private String course;
-    private String grade;
+public class Student extends Person implements Comparable<Student> {
+    private double point;
+    private String className;
 
     public Student() {
     }
 
-    public Student(String course, String grade) {
-        this.course = course;
-        this.grade = grade;
+    public Student(double point, String className) {
+        this.point = point;
+        this.className = className;
     }
 
-    public Student(String code, String name, LocalDate onBoardDate, String email, String course, String grade) {
-        super(code, name, onBoardDate, email);
-        this.course = course;
-        this.grade = grade;
+    public Student(long code, String name, String address, double point, String className) {
+        super(code, name, address);
+        this.point = point;
+        this.className = className;
     }
 
-    public Student(String studentCode, String studentName, LocalDate studentOnBoardDate, String studentEmail, String studentCourse) {
+    public double getPoint() {
+        return point;
     }
 
-    public String getCourse() {
-        return course;
+    public void setPoint(double point) {
+        this.point = point;
     }
 
-    public void setCourse(String course) {
-        this.course = course;
+    public String getClassName() {
+        return className;
     }
 
-    public String getGrade() {
-        return grade;
-    }
-
-    public void setGrade(String grade) {
-        this.grade = grade;
+    public void setClassName(String className) {
+        this.className = className;
     }
 
     @Override
     public String toString() {
-        return super.toString() + ", course: " + course + ", grade: " + grade + ".";
+        return super.toString() + "Student{" +
+                "point=" + point +
+                ", className='" + className + '\'' +
+                '}';
+    }
+
+
+    @Override
+    public int compareTo(Student o) {
+        if (this.getCode() > o.getCode()) {
+            return 1;
+        } else if (this.getCode() == o.getCode()) {
+            return this.getName().compareTo(o.getName());
+        }
+        return -1;
     }
 }

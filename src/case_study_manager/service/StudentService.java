@@ -1,34 +1,54 @@
 package case_study_manager.service;
 
 import case_study_manager.model.Student;
-import case_study_manager.repository.IStudentRepository;
 import case_study_manager.repository.StudentRepository;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class StudentService implements IStudentService {
-
-    private final IStudentRepository iStudentRepository = new StudentRepository();
+    private static StudentRepository studentRepository = new StudentRepository();
     @Override
-    public void addNewStudent(Student student) {
-        iStudentRepository.addNewStudent(student);
+    public List<Student> getAll() {
+        List<Student> students = studentRepository.getAll();
+        return students;
     }
 
     @Override
-    public Student[] findAllStudents() {
-        return iStudentRepository.findAllStudents();
+    public void save(Student s) {
+        studentRepository.save(s);
     }
 
     @Override
-    public Student findStudentByCode(String code) {
-        return iStudentRepository.findStudentByCode(code);
+    public void update(int id, Student s) {
+
     }
 
     @Override
-    public void updateStudent(Student student) {
-        iStudentRepository.updateStudent(student);
+    public void remove(int id) {
+        studentRepository.deleteById(id);
     }
 
     @Override
-    public void deleteStudent(String code) {
-        iStudentRepository.deleteStudent(code);
+    public Student findById(int id) {
+        List<Student> students = studentRepository.getAll();
+        for (Student student : students) {
+            if (student.getCode() == id) {
+                return student;
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public List<Student> findByName(String name) {
+        List<Student> students = studentRepository.getAll();
+        List<Student> temp = new ArrayList<>();
+        for (Student s : students) {
+            if (s.getName().contains(name)) {
+                temp.add(s);
+            }
+        }
+        return temp;
     }
 }

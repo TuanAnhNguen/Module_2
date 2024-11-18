@@ -4,36 +4,32 @@ import case_study_manager.model.Student;
 import case_study_manager.service.IStudentService;
 import case_study_manager.service.StudentService;
 
+import java.util.List;
+
 public class StudentController {
-    private final IStudentService istudentService = new StudentService();
+    private static IStudentService studentService = new StudentService();
 
-    public void getStudentList() {
-        Student[] students = istudentService.findAllStudents();
-        for (Student s : students) {
-            if (s == null) {
-                return;
-            }
-            System.out.println(s);
+    public List<Student> getAll() {
+        List<Student> students = studentService.getAll();
+        return students;
+    }
+
+    public void save(Student student) {
+        studentService.save(student);
+    }
+
+    public List<Student> searchByName(String name) {
+        return studentService.findByName(name);
+    }
+
+    public boolean isExistsStudent(int id) {
+        if (studentService.findById(id) != null) {
+            return true;
         }
+        return false;
     }
 
-    public void addNewStudent(Student student) {
-        istudentService.addNewStudent(student);
-    }
-
-    public Student getStudentByCode(String code) {
-        return istudentService.findStudentByCode(code);
-    }
-
-    public void deleteStudent(String code) {
-        istudentService.deleteStudent(code);
-    }
-
-    public boolean isStudentCodeExist(String code) {
-        return istudentService.findStudentByCode(code) != null;
-    }
-
-    public void updateStudent(Student student) {
-        istudentService.updateStudent(student);
+    public void deleteById(int id) {
+        studentService.remove(id);
     }
 }

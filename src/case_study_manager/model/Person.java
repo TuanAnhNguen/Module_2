@@ -1,28 +1,26 @@
 package case_study_manager.model;
 
-import java.time.LocalDate;
+import java.util.Objects;
 
 public abstract class Person {
-    private String code;
+    private long code;
     private String name;
-    private LocalDate onBoardDate;
-    private String email;
+    private String address;
 
     public Person() {
     }
 
-    public Person(String code, String name, LocalDate onBoardDate, String email) {
+    public Person(long code, String name, String address) {
         this.code = code;
         this.name = name;
-        this.onBoardDate = onBoardDate;
-        this.email = email;
+        this.address = address;
     }
 
-    public String getCode() {
+    public long getCode() {
         return code;
     }
 
-    public void setCode(String code) {
+    public void setCode(long code) {
         this.code = code;
     }
 
@@ -34,29 +32,33 @@ public abstract class Person {
         this.name = name;
     }
 
-    public LocalDate getOnBoardDate() {
-        return onBoardDate;
+    public String getAddress() {
+        return address;
     }
 
-    public void setOnBoardDate(LocalDate onBoardDate) {
-        this.onBoardDate = onBoardDate;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
-    public String getEmail() {
-        return email;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return code == person.code && Objects.equals(name, person.name) && Objects.equals(address, person.address);
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    @Override
+    public int hashCode() {
+        return Objects.hash(code, name, address);
     }
 
     @Override
     public String toString() {
         return "Person{" +
-                "code='" + code + '\'' +
+                "code=" + code +
                 ", name='" + name + '\'' +
-                ", onBoardDate=" + onBoardDate +
-                ", email='" + email + '\'' +
+                ", address='" + address + '\'' +
                 '}';
     }
 }
